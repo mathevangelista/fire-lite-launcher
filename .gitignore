@@ -1,42 +1,45 @@
-# Gradle / Android
+# Android / Gradle / IDE
 .gradle/
-build/
-**/build/
-local.properties
-*.iml
 .idea/
+.vscode/
+*.iml
+local.properties
+**/build/
 .cxx/
 .externalNativeBuild/
-captures/
-*.apk
-*.aab
-*.ap_
+
+# Credenciais, chaves e configuracoes locais
 *.keystore
 *.jks
-*.hprof
-
-# Windows
-Thumbs.db
-Desktop.ini
-
-# Local and device-specific data
-logs/
-*.log
-*.tmp
-*.bak
-*.swp
-*.dmp
-*.heap
-*memoria*.txt
-*uso_aplicativos*.txt
-*apps_todos*.txt
-*apps_usuario*.txt
-*diagnostico*.txt
-*.secret
+*.p12
+*.pem
+*.key
 .env
 .env.*
-!.env.example
+secrets.properties
+key.properties
 
-# Local Gradle/sdk caches
-.gradle-dist/
-android-sdk/
+# Saidas geradas e logs
+logs/
+*.log
+*.apk
+*.aab
+*.apks
+*.zip
+.DS_Store
+Thumbs.db
+
+# Capturas locais do Fire Stick (dados e identificadores do dispositivo)
+FireStick-Diagnosticos/
+FireStick-Limpeza/
+diagnosticos/
+coletas/
+memoria_*.txt
+apps_usuario.txt
+apps_todos.txt
+uso_aplicativos.txt
+gfxinfo*.txt
+launcher_gfxinfo.txt
+launcher_memoria.txt
+*usagestats*.txt
+*meminfo*.txt
