@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.FireLite" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">#58B5FF</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#07111F</item>
+        <item name="android:navigationBarColor">#07111F</item>
+        <item name="android:statusBarColor">#07111F</item>
+    </style>
+</resources>
