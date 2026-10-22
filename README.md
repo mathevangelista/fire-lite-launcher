@@ -4,7 +4,9 @@ Launcher alternativo minimalista para **Amazon Fire TV Stick Lite**, desenvolvid
 
 > **Status:** o APK debug foi compilado e instalado pelo usuário no Fire TV Stick Lite. Foram confirmados **6/6 testes funcionais**: exibição da interface, navegação pelas setas, abertura da Netflix, abertura da Claro TV, grade de aplicativos e botão Voltar. O redirecionamento do botão Home depende do aplicativo externo Home on Fire e deve ser testado separadamente.
 
-![Mockup conceitual da interface](docs/mockup-referencia.png)
+![Prévia compacta do mockup conceitual](docs/mockup-preview.jpg)
+
+> A referência visual original em alta resolução está incluída no pacote ZIP do projeto; esta imagem é uma prévia otimizada para o repositório.
 
 ## Funcionalidades
 
